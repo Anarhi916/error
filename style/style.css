@@ -1,7 +1,6 @@
 *{
 	margin: 0;
-	padding: 0;
-	font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	padding: 0;	
 }
 
 .list{
@@ -16,32 +15,35 @@ address{
 	color: #5e696d;
     font-family: Arial;
     font-size: 19px;
-    font-weight: 400;          
+    font-weight: 400;  
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;          
 }
 
 .icon_phone{
 	display: inline-block;
 	width: 22px;
 	height: 22px;
-	background: url(../images/sprite.png) -5px -411px;
+	background: url(../images/sprite.png) -6px -411px;
 	vertical-align: bottom;
+	margin-left: 3px;
 }
 
 .avtorization{
 	display: inline-block;	
-	margin-left: 13px;
+	margin-left: 11px;	
 	width: 495px;
     height: 26px;
     background-color: #b1bcc0;
     background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
     border-radius: 4px;
     box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
-    vertical-align: bottom;
+    /*vertical-align: top;*/
+    font-family: "Lucida Sans Unicode", Arial, Helvetica, "Nimbus Sans L", sans-serif;
  }   
 
 .icon_avtorization{
 	display: inline-block;
-	margin-left: 7px;
+	margin-left: 6px;
 	margin-top: 4px;
 	width: 15px;
 	height: 19px;
@@ -50,38 +52,41 @@ address{
 
 .login{	
 	display: inline-block;	
-	width: 108px;
-	height: 12px;
-	margin-left: -1px;	
+	width: 109px;
+	height: 13px;
+	margin-left: -2px;
+	position: relative;	
+	top: -2px;
+	font-size: 11px;	
 }
 
 .password{
 	display: inline-block;
-	width: 108px;
-	height: 12px;
-	margin-left: 5px;
+	width: 110px;
+	height: 13px;
+	margin-left: 2px;
+	position: relative;	
+	top: -2px;	
+	font-size: 11px;
 }
 
 form{
 	display: inline-block;
-    vertical-align: top;
-    margin-top: 3px;
+    vertical-align: top;    
 }
 
 .submit_button{
-	color: white;
-    font-family: "Lucida Sans Unicode";
+	color: white;    
     font-size: 11px;
     font-weight: 400;
     background: none;
     border: none;
-    margin-left: 2px;
+    margin-left: 5px;
 }
 
 .link_registration{
 	text-decoration: none;
-	color: white;
-    font-family: "Lucida Sans Unicode";
+	color: white;    
     font-size: 11px;
     font-weight: 400;
     vertical-align: top;
@@ -93,14 +98,13 @@ form{
 }
 
 .link_restore_password{
-    color: #bfbfbf;
-    font-family: "Lucida Sans Unicode";
+    color: #bfbfbf;   
     font-size: 12px;
     font-weight: 400;
     display: inline-block;
     margin-top: 4px;
     vertical-align: top;
-    margin-left: 12px;
+    margin-left: 12px;    
 }
 
 .nav_top{
@@ -143,7 +147,7 @@ form{
 	width: 909px;
     height: 237px;    
     background: url(../images/sprite.png) 0 0 no-repeat;
-    margin-top: 11px;
+    margin-top: 9px;
     margin-left: -3px;
 }
 
@@ -159,7 +163,8 @@ form{
     box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
     list-style: none;
     font-size: 0;  
-    overflow: hidden;      
+    overflow: hidden; 
+    font-family: "Lucida Sans Unicode", Arial, Helvetica, "Nimbus Sans L", sans-serif;     
 }
 
 .menu_top>li{
@@ -171,8 +176,7 @@ form{
 .menu_top>li>a{
 	height: 25px;
 	display: inline-block;
-	text-decoration: none;
-	font-family: "Lucida Sans Unicode";
+	text-decoration: none;	
     font-size: 14px;
     font-weight: 400;
     line-height: 27px;
@@ -233,7 +237,7 @@ form{
 .menu_top_link_6_digits,
 .menu_top_money_digits{
 	color: #0d5a8f;
-    font-family: Arial;
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
     font-size: 12px;
     font-weight: 400;
 }
@@ -241,12 +245,12 @@ form{
 ul.menu_top>li:last-child{
 	margin-left: 12px;
 	text-transform: none;	
-	color: #929b9f;
-    font-family: Arial;
+	color: #929b9f;    
     font-size: 11px;
     font-weight: 400; 
     position: relative;
-    top: -2px;         
+    top: -2px;  
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;       
 }	
 
 .menu_top_money_digits{
@@ -301,6 +305,7 @@ ul.menu_top>li:last-child{
 	width: 193px;
 	margin-top: 10px;
 	float: left;
+	font-family: "Lucida Sans Unicode", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 .sidebar_catalog>p,
@@ -309,8 +314,7 @@ ul.menu_top>li:last-child{
 	height: 27px;
 	width: 184px;
 	text-transform: uppercase;
-	color: #114165;
-    font-family: "Lucida Sans Unicode";
+	color: #114165;    
     font-size: 13px;
     font-weight: 400;
     border: 1px solid #79878d;
@@ -375,8 +379,7 @@ ul.menu_top>li:last-child{
 
 .sidebar_catalog>ul>li>a{
 	text-decoration: none;
-	color: #465961;
-    font-family: "Lucida Sans Unicode";
+	color: #465961;    
     font-size: 13px;
     font-weight: 400;
     line-height: 22px;
@@ -384,7 +387,7 @@ ul.menu_top>li:last-child{
 
 .sidebar_catalog>ul>li>a:hover{
 	color: #0c3256;
-    font-family: Arial;
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
     font-size: 14px;
     font-weight: 700;
     font-style: italic;
@@ -399,6 +402,7 @@ main{
     border-radius: 3px;
     margin-top: 7px;
     padding-bottom: 30px;
+    font-family: "Lucida Sans Unicode", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 main div{
@@ -437,7 +441,7 @@ main p{
 
 figcaption{
 	color: #114165;
-    font-family: Arial;
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 16px;
@@ -452,11 +456,11 @@ figcaption span{
 	margin-top: 10px;
 	float: left;
 	margin-left: 7px;
+	font-family: "Lucida Sans Unicode", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 .checkbox{
-	color: #465961;
-    font-family: "Lucida Sans Unicode";
+	color: #465961;    
     font-size: 13px;
     font-weight: 400;
     line-height: 25px;
@@ -477,7 +481,7 @@ label{
     border: 1px solid #a7abae;
     border-radius: 10px;
 	color: #e5e9ea;
-    font-family: Arial;
+    font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
     font-size: 11px;
     box-shadow: 1px 1px 3px grey;  
     margin-left: 10px;
@@ -486,6 +490,7 @@ label{
 footer{
 	clear: both;
 	text-align: center;	
+	font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
 }
 
 footer>a{
@@ -562,8 +567,7 @@ footer>a:nth-child(8){
 }
 
 .podval ul li a{
-	display: inline-block;
-	font-family: Arial;
+	display: inline-block;	
     font-size: 12px;
     font-weight: 400;
     color: #bec6c9;
@@ -596,8 +600,7 @@ footer>a:nth-child(8){
 }
 
 .podval p{
-	color: #7f4740;
-    font-family: Arial;
+	color: #7f4740;    
     font-size: 10px;
     font-weight: 400;
     margin-top: 17px;
